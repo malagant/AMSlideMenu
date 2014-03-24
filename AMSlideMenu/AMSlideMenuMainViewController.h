@@ -45,7 +45,7 @@ typedef enum {
     AMSlideMenuRightOpened,
 } AMSlideMenuState;
 
-@interface AMSlideMenuMainViewController : UIViewController
+@interface AMSlideMenuMainViewController : QuickDialogController
 
 #pragma mark - Properties
 
